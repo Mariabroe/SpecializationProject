@@ -4,7 +4,7 @@ public class SoundManager : MonoBehaviour
 {
     public AudioSource sfxSource; // Sound effects
     public AudioSource musicSource; // Background music
-    public AudioClip backgroundMusic; // Assign your looping song here
+    public AudioClip backgroundMusic; 
 
     // Set the range for the random pitch adjustment
     public float lowPitchRange = 0.0001f;
